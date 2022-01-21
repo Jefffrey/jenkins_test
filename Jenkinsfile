@@ -3,6 +3,6 @@ node {
         echo 'Build stage'
     }
     stage('Config') {
-        echo "Config var is: ${env.CONFIG_VAR}"
+        echo "Config var is: ${jte.keywords.CONFIG_VAR}"
     }
 }
