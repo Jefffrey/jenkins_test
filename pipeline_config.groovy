@@ -1,7 +1,3 @@
-application_environments {
-  global {
-    environment {
-      CONFIG_VAR = 'test123'
-    }
-  }
+keywords {
+  CONFIG_VAR = 'test123'
 }
